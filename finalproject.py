@@ -56,7 +56,7 @@ if game == "2":
     while total <= 0:
         print('The day is over! Thank you for playing!')
         break
-    input('Press any key to exit!')
+    input('Press any key to exit! ')
 
 
 if game == "1":
@@ -69,7 +69,7 @@ if game == "1":
         print("You go down the path that has the sign with unicorns and rainbows. You think to yourself, 'How bad could this really be?' You fall down into a bottomless hole and end up floating around for all eternity.")
         print("You lose.")
         print('----------------------------------------------------------------------------------------------------')
-        input('Press any key to exit!')
+        input('Press any key to exit! ')
     elif answer == 'Left':
         print("You go down the path that has the sign with is black and has skulls. You feel uneasy. You can't see what's at the end of the path and it scares you. You see signs on the trees that say 'Turn back!' and 'Stay away!' and it makes you feel worse. ")
         print('----------------------------------------------------------------------------------------------------')
@@ -85,25 +85,25 @@ if game == "1":
                 if answer == 'Y':
                     print('You drink it and instantly pass out. You died. Dont take stuff from strangers.')
                     print('----------------------------------------------------------------------------------------------------')
-                    input('Press any key to exit!')
+                    input('Press any key to exit! ')
                 elif answer == 'N':
                     answer = input('Thats good. You are smart." The strange looking man says. He asks how you got here and you told him you just woke up here. "Well, if you go down that path right there, the man dressed in orange can help you" He says, pointing to a path that looks oddly suspicious. Do you go? (Y/N) ')
                     print('----------------------------------------------------------------------------------------------------')
                     if answer == 'Y':
                         print('You go down the path. You see a man all dressed in orange. He says hello and approaches you. He puts his arm on your arm lovingly and stabs you. You die.')
                         print('----------------------------------------------------------------------------------------------------')
-                        input('Press any key to exit!')
+                        input('Press any key to exit! ')
                     elif answer == 'N':
                         print('"Fine If you dont want help, leave!" He pushes you away so you leave. You continue walking down the path until you see a clearing. You made it out! Congrats!')
                         print('----------------------------------------------------------------------------------------------------')
-                        input('Press any key to exit!')
+                        input('Press any key to exit! ')
             elif answer == 'N':
                 answer = input('You simply blank stare at him and say nothing. "Hm. Not the talking type? That is aokay! Would you like some tea?" (Y/N) ')
                 print('----------------------------------------------------------------------------------------------------')
                 if answer == 'Y':
                     print('You drink it and instantly pass out. You died. Dont take stuff from strangers.')
                     print('----------------------------------------------------------------------------------------------------')
-                    input('Press any key to exit!')
+                    input('Press any key to exit! ')
                 elif answer == 'N':
                     print('"Why dont you want anything to do with me? Why are you even here?" He pushes you out and back into the forest.')
                     print('You continue to walk through the forest, until a man in all purple comes up to you.')
@@ -113,11 +113,11 @@ if game == "1":
                         print('All of a sudden your vision goes white and you appear in your house. Your cat comes up and starts meowing at you. You sigh in relief')
                         print('You made it out!')
                         print('----------------------------------------------------------------------------------------------------')
-                        input('Press any key to exit!')
+                        input('Press any key to exit! ')
                     elif answer == 'N': 
                         print('He kills you. Somehow. It was too quick for you to realize how. You were not supposed to say no.')
                         print('----------------------------------------------------------------------------------------------------')
-                        input('Press any key to exit!')
+                        input('Press any key to exit! ')
         elif answer == 'N':
             answer = input('You continue walking past the table and chairs. Walking through the forest, you see a man standing oddly at the end of the path. Do you call out to him? (Y/N) ')
             print('----------------------------------------------------------------------------------------------------')
@@ -133,11 +133,11 @@ if game == "1":
                         print('----------------------------------------------------------------------------------------------------')
                         print('You won! He was just wanting a pop tart!')
                         print('------------------')
-                        input('Press any key to exit!')
+                        input('Press any key to exit! ')
                 elif answer == 'N':
                     print('You freeze out of fear. That was a bad choice because the monster can smell fear and you die.')
                     print('----------------------------------------------------------------------------------------------------')
-                    input('Press any key to exit!')
+                    input('Press any key to exit! ')
             elif answer == 'N':
                 print('You continue walking until you get up to him. He disapears the moment you approach him. You keep walking.')
                 answer = input('You come to another crossroad, nothing on either side. Do you go Right or Left? ')
@@ -148,13 +148,13 @@ if game == "1":
                     print('You approach a brick wall. Dead end. You just give up.')
                     print('----------------------------------------------------------------------------------------------------')
                     print('You lose.')
-                    input('Press any key to exit!')
+                    input('Press any key to exit! ')
                 elif answer == 'Left':
                     print('You go on the path to the left. You approach a very bright wall of light. Your scared but walk through it none the less.')
                     print('You walk through the wall, eyes closed and when you open your eyes, you are walking through your front door.')
                     print('You won!')
                     print('----------------------------------------------------------------------------------------------------')
-                    input('Press any key to exit!')
+                    input('Press any key to exit! ')
 if game == "3":
     while True:
         user = input("Thanks for playing rock, paper, scissors. Pick either Rock, Paper or Scissors ")
